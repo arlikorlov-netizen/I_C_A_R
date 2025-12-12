@@ -14,8 +14,8 @@
 /* ПРИМЕНЯЕМ ШРИФТ КО ВСЕМУ ТЕЛУ СТРАНИЦЫ */
 body {
     /* ИСПОЛЬЗУЕМ НАШ ШРИФТ, А ЕСЛИ ОН НЕ ЗАГРУЗИТСЯ - СИСТЕМНЫЙ MONOSPACE */
-    font-family: 'CrySis_Bold_2', monospace;
-    color: #32CD32;
+    font-family: 'CrySis_Bold_2'!important;
+    color: #32CD32!important;
 }
 
 /* СТИЛИ ДЛЯ ГЛАВНОГО КОНТЕЙНЕРА ПРИЛОЖЕНИЯ */
@@ -28,13 +28,13 @@ body {
     /* ЗАНИМАЕМ ВСЮ ВЫСОТУ ОКНА БРАУЗЕРА */
     height: 100vh;
     /* ИСПОЛЬЗУЕМ НАШ ШРИФТ, А ЕСЛИ ОН НЕ ЗАГРУЗИТСЯ - СИСТЕМНЫЙ MONOSPACE */
-    font-family: 'CrySis_Bold_2', monospace;
-    color: #32CD32;
+    font-family: 'CrySis_Bold_2'!important;
+    color: #32CD32!important;
 }
 
 /* СТИЛИ ДЛЯ ПАНЕЛЕЙ БЕЗ ОТСТУПОВ */
 .top-panel, .middle-panel, .bottom-panel {
-    background-color: #0A2A0A; /* ТЁМНО-ЗЕЛЁНЫЙ ФОН */
-    color: #32CD32; /* НЕОНОВО-ЗЕЛЁНЫЙ ТЕКСТ */
+    background-color: #0A2A0A!important; /* ТЁМНО-ЗЕЛЁНЫЙ ФОН */
+    color: #32CD32!important; /* НЕОНОВО-ЗЕЛЁНЫЙ ТЕКСТ */
     flex: 1; /* КАЖДАЯ ПАНЕЛЬ ЗАНИМАЕТ РАВНУЮ ШИРИНУ */
 }
