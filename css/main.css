@@ -21,9 +21,9 @@ body {
 /* СТИЛИ ДЛЯ ГЛАВНОГО КОНТЕЙНЕРА ПРИЛОЖЕНИЯ */
 .app {
     /* ВКЛЮЧАЕМ ГИБКУЮ ВЁРСТКУ (FLEXBOX) ДЛЯ УПРАВЛЕНИЯ РАСПОЛОЖЕНИЕМ ДОЧЕРНИХ ЭЛЕМЕНТОВ */
-    display: flex;
+    display: flex!important;
     /* РАСПОЛАГАЕМ ДОЧЕРНИЕ ЭЛЕМЕНТЫ В СТРОКУ (ГОРИЗОНТАЛЬНО) */
-    flex-direction: row;
+    flex-direction: row!important;
 
     /* ЗАНИМАЕМ ВСЮ ВЫСОТУ ОКНА БРАУЗЕРА */
     height: 100vh;
@@ -36,5 +36,6 @@ body {
 .top-panel, .middle-panel, .bottom-panel {
     background-color: #0A2A0A!important; /* ТЁМНО-ЗЕЛЁНЫЙ ФОН */
     color: #32CD32!important; /* НЕОНОВО-ЗЕЛЁНЫЙ ТЕКСТ */
-    flex: 1; /* КАЖДАЯ ПАНЕЛЬ ЗАНИМАЕТ РАВНУЮ ШИРИНУ */
+    display: inline-block !important; /* БЛОЧНО-СТРОЧНОЕ ОТОБРАЖЕНИЕ */
+    width: 33.33% !important; /* КАЖДАЯ ЗАНИМАЕТ 1/3 ШИРИНЫ */
 }
