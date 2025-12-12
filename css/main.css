@@ -24,9 +24,17 @@ body {
     display: flex;
     /* РАСПОЛАГАЕМ ДОЧЕРНИЕ ЭЛЕМЕНТЫ В СТРОКУ (ГОРИЗОНТАЛЬНО) */
     flex-direction: row;
+
     /* ЗАНИМАЕМ ВСЮ ВЫСОТУ ОКНА БРАУЗЕРА */
     height: 100vh;
     /* ИСПОЛЬЗУЕМ НАШ ШРИФТ, А ЕСЛИ ОН НЕ ЗАГРУЗИТСЯ - СИСТЕМНЫЙ MONOSPACE */
     font-family: 'CrySis_Bold_2', monospace;
     color: #32CD32;
+}
+
+/* СТИЛИ ДЛЯ ПАНЕЛЕЙ БЕЗ ОТСТУПОВ */
+.top-panel, .middle-panel, .bottom-panel {
+    background-color: #0A2A0A; /* ТЁМНО-ЗЕЛЁНЫЙ ФОН */
+    color: #32CD32; /* НЕОНОВО-ЗЕЛЁНЫЙ ТЕКСТ */
+    flex: 1; /* КАЖДАЯ ПАНЕЛЬ ЗАНИМАЕТ РАВНУЮ ШИРИНУ */
 }
