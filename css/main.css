@@ -26,4 +26,7 @@ body {
     flex-direction: row;
     /* ЗАНИМАЕМ ВСЮ ВЫСОТУ ОКНА БРАУЗЕРА */
     height: 100vh;
+    /* ИСПОЛЬЗУЕМ НАШ ШРИФТ, А ЕСЛИ ОН НЕ ЗАГРУЗИТСЯ - СИСТЕМНЫЙ MONOSPACE */
+    font-family: 'CrySis_Bold_2', monospace;
+    color: #32CD32;
 }
