@@ -1,0 +1,5 @@
+.app {
+    display: flex; /* Включаем flexbox */
+    flex-direction: row; /* Элементы в строку (горизонтально) */
+    height: 100vh; /* Вся высота экрана */
+}
