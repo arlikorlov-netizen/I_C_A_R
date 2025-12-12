@@ -1,7 +1,8 @@
 /* ОБЪЯВЛЯЕМ ПОДКЛЮЧЕНИЕ ПОЛЬЗОВАТЕЛЬСКОГО ШРИФТА */
 @font-face {
     /* ЗАДАЁМ ИМЯ ШРИФТА, КОТОРОЕ БУДЕМ ИСПОЛЬЗОВАТЬ В CSS */
-    font-family: 'CrySis_Bold_2';
+    font-family: 'CrySis_Bold_2', monospace;
+    color: #32CD32;
     /* УКАЗЫВАЕМ ПУТЬ К ФАЙЛУ ШРИФТА И ЕГО ФОРМАТ */
     src: url('fonts/CrySis_Bold_2.ttf') format('truetype');
     /* УКАЗЫВАЕМ, ЧТО ЭТО ЖИРНОЕ НАЧЕРТАНИЕ ШРИФТА */
