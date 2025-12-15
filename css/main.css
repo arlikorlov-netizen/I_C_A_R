@@ -85,3 +85,9 @@ height: 50% !important;
     text-transform: uppercase !important; /* ВСЕ БУКВЫ ЗАГЛАВНЫЕ */
     letter-spacing: 1px !important; /* РАССТОЯНИЕ МЕЖДУ БУКВАМИ */
 }
+
+.top-left, .top-center, .top-right {
+    display: inline-block !important; /* БЛОЧНО-СТРОЧНЫЕ ЭЛЕМЕНТЫ */
+    width: 33.33% !important; /* ПО ТРЕТИ ЭКРАНА */
+    text-align: center !important; /* ТЕКСТ ПО ЦЕНТРУ */
+}
