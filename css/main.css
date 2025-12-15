@@ -35,14 +35,13 @@ body {
 
 /* СТИЛИ ДЛЯ ПАНЕЛЕЙ БЕЗ ОТСТУПОВ */
 .top-panel, .middle-panel, .bottom-panel {
-    flex: 1 !important; /* РАВНОМЕРНОЕ РАСПРЕДЕЛЕНИЕ ШИРИНЫ */
     min-width: 0 !important; /* РАЗРЕШАЕМ СЖАТИЕ */
     background-color: #0A2A0A!important; /* ТЁМНО-ЗЕЛЁНЫЙ ФОН */
     color: #32CD32!important; /* НЕОНОВО-ЗЕЛЁНЫЙ ТЕКСТ */
     display: block !important; /* ЯЧЕЙКИ ТАБЛИЦЫ В ОДНУ СТРОКУ */
     width: 100vw !important; /* ШИРИНА 100% */ 
     text-align: center !important; /* ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ ПО ЦЕНТРУ */
-vertical-align: middle !important; /* ВЫРАВНИВАНИЕ ПО СЕРЕДИНЕ ВЕРТИКАЛЬНО */
+    line-height: 100px !important; /* ВЫСОТА СТРОКИ РАВНА ВЫСОТЕ БЛОКА */
 }
 
 .top-panel {
