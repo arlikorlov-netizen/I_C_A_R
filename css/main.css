@@ -20,7 +20,7 @@ body {
 
 /* СТИЛИ ДЛЯ ГЛАВНОГО КОНТЕЙНЕРА ПРИЛОЖЕНИЯ */
 .app {
-    display: table !important; /* ИСПОЛЬЗУЕМ ТАБЛИЧНУЮ ВЁРСТКУ */
+    display: table !important;
     width: 100% !important; /* ШИРИНА 100% */
     table-layout: fixed !important; /* ФИКСИРОВАННАЯ ШИРИНА КОЛОНОК */
     /* ЗАНИМАЕМ ВСЮ ВЫСОТУ ОКНА БРАУЗЕРА */
@@ -36,5 +36,4 @@ body {
     color: #32CD32!important; /* НЕОНОВО-ЗЕЛЁНЫЙ ТЕКСТ */
     display: table-cell !important; /* ЯЧЕЙКИ ТАБЛИЦЫ В ОДНУ СТРОКУ */
     width: 33.33% !important; /* РАВНАЯ ШИРИНА */
-    vertical-align: top !important; /* ВЫРАВНИВАНИЕ ПО ВЕРХНЕМУ КРАЮ */
 }
