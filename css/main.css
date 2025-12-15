@@ -15,17 +15,14 @@
 body {
     /* ИСПОЛЬЗУЕМ НАШ ШРИФТ, А ЕСЛИ ОН НЕ ЗАГРУЗИТСЯ - СИСТЕМНЫЙ MONOSPACE */
     font-family: 'CrySis_Bold_2'!important;
-    background-color: #0A2A0A!important; /* ТЁМНО-ЗЕЛЁНЫЙ ФОН */
     color: #32CD32!important;
 }
 
 /* СТИЛИ ДЛЯ ГЛАВНОГО КОНТЕЙНЕРА ПРИЛОЖЕНИЯ */
 .app {
-    /* ВКЛЮЧАЕМ ГИБКУЮ ВЁРСТКУ (FLEXBOX) ДЛЯ УПРАВЛЕНИЯ РАСПОЛОЖЕНИЕМ ДОЧЕРНИХ ЭЛЕМЕНТОВ */
-    display: flex!important;
-    /* РАСПОЛАГАЕМ ДОЧЕРНИЕ ЭЛЕМЕНТЫ В СТРОКУ (ГОРИЗОНТАЛЬНО) */
-    flex-direction: row!important;
-    flex-wrap: nowrap !important;
+    display: table !important; /* ИСПОЛЬЗУЕМ ТАБЛИЧНУЮ ВЁРСТКУ */
+    width: 100% !important; /* ШИРИНА 100% */
+    table-layout: fixed !important; /* ФИКСИРОВАННАЯ ШИРИНА КОЛОНОК */
     /* ЗАНИМАЕМ ВСЮ ВЫСОТУ ОКНА БРАУЗЕРА */
     height: 100vh;
     /* ИСПОЛЬЗУЕМ НАШ ШРИФТ, А ЕСЛИ ОН НЕ ЗАГРУЗИТСЯ - СИСТЕМНЫЙ MONOSPACE */
@@ -37,8 +34,7 @@ body {
 .top-panel, .middle-panel, .bottom-panel {
     background-color: #0A2A0A!important; /* ТЁМНО-ЗЕЛЁНЫЙ ФОН */
     color: #32CD32!important; /* НЕОНОВО-ЗЕЛЁНЫЙ ТЕКСТ */
-    display: inline-block !important; /* БЛОЧНО-СТРОЧНОЕ ОТОБРАЖЕНИЕ */
-    width: 33.33% !important; /* КАЖДАЯ ЗАНИМАЕТ 1/3 ШИРИНЫ */
-    float: left !important; /* ПРИЖИМАЕМ ВЛЕВО */
-    box-sizing: border-box !important; /* УЧИТЫВАЕМ ГРАНИЦЫ В ШИРИНЕ */
+    display: table-cell !important; /* ЯЧЕЙКИ ТАБЛИЦЫ В ОДНУ СТРОКУ */
+    width: 33.33% !important; /* РАВНАЯ ШИРИНА */
+    vertical-align: top !important; /* ВЫРАВНИВАНИЕ ПО ВЕРХНЕМУ КРАЮ */
 }
