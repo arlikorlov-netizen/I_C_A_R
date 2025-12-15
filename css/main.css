@@ -16,6 +16,9 @@ body {
     /* ИСПОЛЬЗУЕМ НАШ ШРИФТ, А ЕСЛИ ОН НЕ ЗАГРУЗИТСЯ - СИСТЕМНЫЙ MONOSPACE */
     font-family: 'CrySis_Bold_2'!important;
     color: #32CD32!important;
+    background-color: #0A2A0A !important; /* ТЁМНО-ЗЕЛЁНЫЙ ФОН ИЗ ВАШЕЙ ПАЛИТРЫ */
+    margin: 0 !important; /* УБИРАЕМ ВНЕШНИЕ ОТСТУПЫ */
+    padding: 0 !important; /* УБИРАЕМ ВНУТРЕННИЕ ОТСТУПЫ */
 }
 
 /* СТИЛИ ДЛЯ ГЛАВНОГО КОНТЕЙНЕРА ПРИЛОЖЕНИЯ */
