@@ -41,5 +41,16 @@ body {
     color: #32CD32!important; /* НЕОНОВО-ЗЕЛЁНЫЙ ТЕКСТ */
     display: table !important; /* ЯЧЕЙКИ ТАБЛИЦЫ В ОДНУ СТРОКУ */
     width: 100vw !important; /* ШИРИНА 100% */ 
-    height: 33.3% !important;
+}
+
+.top-panel {
+height: 10% !important;    
+}
+
+.middle-panel {
+height: 40% !important;  
+}
+
+.bottom-panel {
+height: 50% !important;  
 }
