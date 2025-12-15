@@ -46,7 +46,22 @@ body {
 
 .top-panel {
 height: 10% !important;
-    border-bottom: 3px solid #32CD32 !important; /* НЕОНОВО-ЗЕЛЁНАЯ ЛИНИЯ СНИЗУ */    
+
+    /* ДЕЛАЕМ СТАНДАРТНУЮ РАМКУ ПРОЗРАЧНОЙ (ОНА НУЖНА ДЛЯ ЗАНИМАЕМОГО МЕСТА) */
+    border-bottom: 3px solid transparent !important;
+    /* СОЗДАЁМ ЛИНЕЙНЫЙ ГРАДИЕНТ СЛЕВА НАПРАВО ДЛЯ ЭФФЕКТА "ИСЧЕЗАНИЯ" */
+    background-image: linear-gradient(to right, 
+        transparent 0%,       /* НАЧИНАЕМ С ПРОЗРАЧНОГО ЦВЕТА (ЛЕВЫЙ КРАЙ) */
+        #32CD32 25%,         /* ПОЯВЛЯЕМСЯ ДО ПОЛНОЙ ЯРКОСТИ НА 25% ШИРИНЫ */
+        #32CD32 75%,         /* ДЕРЖИМ ЯРКИЙ ЦВЕТ ДО 75% ШИРИНЫ */
+        transparent 100%     /* ИСЧЕЗАЕМ ОБРАТНО ДО ПРОЗРАЧНОСТИ (ПРАВЫЙ КРАЙ) */
+    ) !important;
+    /* ЗАДАЁМ РАЗМЕР ФОНА: ВСЯ ШИРИНА БЛОКА И ВЫСОТА 3px (ТОЛЩИНА ЛИНИИ) */
+    background-size: 100% 3px !important;
+    /* ЗАПРЕЩАЕМ ПОВТОРЕНИЕ ФОНА (ЛИНИЯ ТОЛЬКО ОДНА) */
+    background-repeat: no-repeat !important;
+    /* РАЗМЕЩАЕМ ФОН (НАШУ ЛИНИЮ) ВНИЗУ БЛОКА */
+    background-position: bottom !important;
 }
 
 .middle-panel {
