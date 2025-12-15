@@ -1,0 +1,9 @@
+.settings-btn {
+    background: none !important; /* УБИРАЕМ ФОН */
+    border: none !important; /* УБИРАЕМ РАМКУ */
+    color: #32CD32 !important; /* НЕОНОВО-ЗЕЛЁНЫЙ ЦВЕТ */
+    font-size: 24px !important; /* РАЗМЕР ИКОНКИ */
+    cursor: pointer !important; /* КУРСОР-УКАЗАТЕЛЬ ПРИ НАВЕДЕНИИ */
+    position: absolute !important; /* АБСОЛЮТНОЕ ПОЗИЦИОНИРОВАНИЕ */
+    right: 20px !important; /* ОТСТУП ОТ ПРАВОГО КРАЯ */
+}
