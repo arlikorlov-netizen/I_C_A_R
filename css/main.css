@@ -45,7 +45,8 @@ body {
 }
 
 .top-panel {
-height: 10% !important;    
+height: 10% !important;
+    border-bottom: 3px solid #32CD32 !important; /* НЕОНОВО-ЗЕЛЁНАЯ ЛИНИЯ СНИЗУ */    
 }
 
 .middle-panel {
