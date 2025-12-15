@@ -41,6 +41,10 @@ body {
     color: #32CD32!important; /* НЕОНОВО-ЗЕЛЁНЫЙ ТЕКСТ */
     display: table !important; /* ЯЧЕЙКИ ТАБЛИЦЫ В ОДНУ СТРОКУ */
     width: 100vw !important; /* ШИРИНА 100% */ 
+    text-align: center !important; /* ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ ПО ЦЕНТРУ */
+    display: flex !important; /* ВКЛЮЧАЕМ FLEX ДЛЯ ВЕРТИКАЛЬНОГО ВЫРАВНИВАНИЯ */
+    align-items: center !important; /* ВЕРТИКАЛЬНОЕ ВЫРАВНИВАНИЕ ПО ЦЕНТРУ */
+    justify-content: center !important; /* ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ ПО ЦЕНТРУ (ДЛЯ FLEX) */
 }
 
 .top-panel {
