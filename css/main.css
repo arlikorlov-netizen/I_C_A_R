@@ -71,3 +71,9 @@ height: 40% !important;
 .bottom-panel {
 height: 50% !important;  
 }
+
+.user-name {
+    font-size: 24px !important; /* РАЗМЕР ШРИФТА */
+    text-transform: uppercase !important; /* ВСЕ БУКВЫ ЗАГЛАВНЫЕ */
+    letter-spacing: 2px !important; /* РАССТОЯНИЕ МЕЖДУ БУКВАМИ */
+}
