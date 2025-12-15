@@ -23,7 +23,7 @@ body {
 
 /* СТИЛИ ДЛЯ ГЛАВНОГО КОНТЕЙНЕРА ПРИЛОЖЕНИЯ */
 .app {
-    display: table !important;
+    display: block !important;
     width: 100vw !important; /* ШИРИНА 100% */
     table-layout: fixed !important; /* ФИКСИРОВАННАЯ ШИРИНА КОЛОНОК */
     /* ЗАНИМАЕМ ВСЮ ВЫСОТУ ОКНА БРАУЗЕРА */
@@ -39,7 +39,7 @@ body {
     min-width: 0 !important; /* РАЗРЕШАЕМ СЖАТИЕ */
     background-color: #0A2A0A!important; /* ТЁМНО-ЗЕЛЁНЫЙ ФОН */
     color: #32CD32!important; /* НЕОНОВО-ЗЕЛЁНЫЙ ТЕКСТ */
-    display: table !important; /* ЯЧЕЙКИ ТАБЛИЦЫ В ОДНУ СТРОКУ */
+    display: block !important; /* ЯЧЕЙКИ ТАБЛИЦЫ В ОДНУ СТРОКУ */
     width: 100vw !important; /* ШИРИНА 100% */ 
     text-align: center !important; /* ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ ПО ЦЕНТРУ */
 vertical-align: middle !important; /* ВЫРАВНИВАНИЕ ПО СЕРЕДИНЕ ВЕРТИКАЛЬНО */
