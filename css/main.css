@@ -34,6 +34,6 @@ body {
 .top-panel, .middle-panel, .bottom-panel {
     background-color: #0A2A0A!important; /* ТЁМНО-ЗЕЛЁНЫЙ ФОН */
     color: #32CD32!important; /* НЕОНОВО-ЗЕЛЁНЫЙ ТЕКСТ */
-    display: table-cell !important; /* ЯЧЕЙКИ ТАБЛИЦЫ В ОДНУ СТРОКУ */
+    display: table !important; /* ЯЧЕЙКИ ТАБЛИЦЫ В ОДНУ СТРОКУ */
     width: 33.33% !important; /* РАВНАЯ ШИРИНА */
 }
