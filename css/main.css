@@ -1,7 +1,7 @@
 /* ОБЪЯВЛЯЕМ ПОДКЛЮЧЕНИЕ ПОЛЬЗОВАТЕЛЬСКОГО ШРИФТА */
 @font-face {
     /* ЗАДАЁМ ИМЯ ШРИФТА, КОТОРОЕ БУДЕМ ИСПОЛЬЗОВАТЬ В CSS */
-    font-family: 'CrySis_Bold_2', monospace;
+    font-family: 'CrySis_Bold_2';
     color: #32CD32;
     /* УКАЗЫВАЕМ ПУТЬ К ФАЙЛУ ШРИФТА И ЕГО ФОРМАТ */
     src: url('https://arlikorlov-netizen.github.io/I_C_A_R/fonts/CrySis_Bold_2.ttf') format('truetype');
@@ -21,10 +21,10 @@ body {
 /* СТИЛИ ДЛЯ ГЛАВНОГО КОНТЕЙНЕРА ПРИЛОЖЕНИЯ */
 .app {
     display: table !important;
-    width: 100% !important; /* ШИРИНА 100% */
+    width: 100vw !important; /* ШИРИНА 100% */
     table-layout: fixed !important; /* ФИКСИРОВАННАЯ ШИРИНА КОЛОНОК */
     /* ЗАНИМАЕМ ВСЮ ВЫСОТУ ОКНА БРАУЗЕРА */
-    height: 100vh;
+    height: 100vh !important;
     /* ИСПОЛЬЗУЕМ НАШ ШРИФТ, А ЕСЛИ ОН НЕ ЗАГРУЗИТСЯ - СИСТЕМНЫЙ MONOSPACE */
     font-family: 'CrySis_Bold_2'!important;
     color: #32CD32!important;
@@ -32,6 +32,8 @@ body {
 
 /* СТИЛИ ДЛЯ ПАНЕЛЕЙ БЕЗ ОТСТУПОВ */
 .top-panel, .middle-panel, .bottom-panel {
+    flex: 1 !important; /* РАВНОМЕРНОЕ РАСПРЕДЕЛЕНИЕ ШИРИНЫ */
+    min-width: 0 !important; /* РАЗРЕШАЕМ СЖАТИЕ */
     background-color: #0A2A0A!important; /* ТЁМНО-ЗЕЛЁНЫЙ ФОН */
     color: #32CD32!important; /* НЕОНОВО-ЗЕЛЁНЫЙ ТЕКСТ */
     display: table !important; /* ЯЧЕЙКИ ТАБЛИЦЫ В ОДНУ СТРОКУ */
