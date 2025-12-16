@@ -72,7 +72,6 @@ height: 50% !important;
 }
 
 .user-name {
-    font-size: 16px !important; /* РАЗМЕР ШРИФТА */
     text-transform: uppercase !important; /* ВСЕ БУКВЫ ЗАГЛАВНЫЕ */
     letter-spacing: 2px !important; /* РАССТОЯНИЕ МЕЖДУ БУКВАМИ */
 }
@@ -86,7 +85,7 @@ height: 50% !important;
 /* ДЕЛАЕМ ВЕРХНЮЮ ПАНЕЛЬ ГРИД-КОНТЕЙНЕРОМ НА 3 РАВНЫХ КОЛОНКИ */
 .top-panel {
     display: grid !important; /* ВКЛЮЧАЕМ CSS GRID */
-    grid-template-columns: 1fr 1fr 1fr !important; /* ТРИ ОДИНАКОВЫХ КОЛОНКИ */
+    grid-template-columns: 1fr 1fr 0.2fr !important; /* ТРИ ОДИНАКОВЫХ КОЛОНКИ */
     width: 100vw !important; /* ШИРИНА ВЕСЬ ЭКРАН */
 }
 
@@ -105,12 +104,12 @@ height: 50% !important;
 }
 
 .top-left {
-    font-size: 30px !important; /* УВЕЛИЧИВАЕМ РАЗМЕР ШРИФТА */
+    font-size: 20px !important; /* УВЕЛИЧИВАЕМ РАЗМЕР ШРИФТА */
     padding-top: 15px !important; /* ОПУСКАЕМ ТЕКСТ ОТ ВЕРХНЕЙ ГРАНИЦЫ */
  }
 
  .top-center {
-    font-size: 30px !important; /* УВЕЛИЧИВАЕМ РАЗМЕР ШРИФТА */
+    font-size: 20px !important; /* УВЕЛИЧИВАЕМ РАЗМЕР ШРИФТА */
     padding-top: 15px !important; /* ОПУСКАЕМ ТЕКСТ ОТ ВЕРХНЕЙ ГРАНИЦЫ */
  }
 
