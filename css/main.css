@@ -84,14 +84,14 @@ height: 52.5% !important;
 .userLvl{
     text-transform: uppercase !important; /* ВСЕ БУКВЫ ЗАГЛАВНЫЕ */
     letter-spacing: 2px !important; /* РАССТОЯНИЕ МЕЖДУ БУКВАМИ */
-    font-size: 20px !important; 
+    font-size: 10px !important; 
 }
 
 .current-date {
     color: #A0FFA0 !important; /* СВЕТЛО-ЗЕЛЁНЫЙ ЦВЕТ ТЕКСТА */
     text-transform: uppercase !important; /* ВСЕ БУКВЫ ЗАГЛАВНЫЕ */
     letter-spacing: 1px !important; /* РАССТОЯНИЕ МЕЖДУ БУКВАМИ */
-    font-size: 20px !important; 
+    font-size: 10px !important; 
 }
 
 /* ДЕЛАЕМ ВЕРХНЮЮ ПАНЕЛЬ ГРИД-КОНТЕЙНЕРОМ НА 3 РАВНЫХ КОЛОНКИ */
