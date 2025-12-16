@@ -66,7 +66,7 @@ height: 10% !important;
 .middle-panel {
 height: 40% !important;
 text-align: left !important; /* ТЕКСТ ПО ЛЕВОМУ КРАЮ */
-font-size: 12px !important; 
+font-size: 10px !important; 
 
 }
 
@@ -98,10 +98,11 @@ height: 50% !important;
 .top-panel {
     display: grid !important; /* ВКЛЮЧАЕМ CSS GRID */
     grid-template-columns: 1fr 1fr 1fr !important; /* ТРИ ОДИНАКОВЫХ КОЛОНКИ */
+    height: 100% !important; /* ЗАНИМАЕМ ВСЮ ВЫСОТУ РОДИТЕЛЯ */
     width: 100vw !important; /* ШИРИНА ВЕСЬ ЭКРАН */
     align-items: end !important; /* ВЫРАВНИВАЕМ ВСЕ ЭЛЕМЕНТЫ ПО НИЖНЕМУ КРАЮ */
     margin-top: auto !important; /* ПРИЖИМАЕМ К НИЖНЕМУ КРАЮ РОДИТЕЛЯ */
-    
+
 }
 
 /* ИНДИВИДУАЛЬНОЕ ВЫРАВНИВАНИЕ ДЛЯ КАЖДОГО СТОЛБЦА */
