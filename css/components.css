@@ -4,5 +4,8 @@
     color: #32CD32 !important; /* НЕОНОВО-ЗЕЛЁНЫЙ ЦВЕТ */
     font-size: 24px !important; /* РАЗМЕР ИКОНКИ */
     cursor: pointer !important; /* КУРСОР-УКАЗАТЕЛЬ ПРИ НАВЕДЕНИИ */
-    padding-right: 10px !important; /* ОТСТУП ОТ ПРАВОГО КРАЯ */
+    position: absolute !important; /* АБСОЛЮТНОЕ ПОЗИЦИОНИРОВАНИЕ */
+    padding-right: 0px !important; /* ОТСТУП ОТ ПРАВОГО КРАЯ */
+    padding: 0 !important; /* БЕЗ ВНУТРЕННИХ ОТСТУПОВ */
+    margin: 0 !important; /* БЕЗ ВНЕШНИХ ОТСТУПОВ */
 }
