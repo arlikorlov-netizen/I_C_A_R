@@ -85,8 +85,16 @@ height: 50% !important;
     letter-spacing: 1px !important; /* РАССТОЯНИЕ МЕЖДУ БУКВАМИ */
 }
 
+/* БЛОЧНАЯ ВЁРСТКА С ИСПОЛЬЗОВАНИЕМ FLOAT ДЛЯ ТРЁХ КОЛОНОК */
 .top-left, .top-center, .top-right {
-    display: inline-block !important; /* БЛОЧНО-СТРОЧНЫЕ ЭЛЕМЕНТЫ */
-    width: 33.33% !important; /* ПО ТРЕТИ ЭКРАНА */
-    text-align: center !important; /* ТЕКСТ ПО ЦЕНТРУ */
+    float: left !important; /* ПРИЖИМАЕМ ЭЛЕМЕНТЫ К ЛЕВОМУ КРАЮ, ЧТОБЫ ОНИ ВСТАЛИ В ОДНУ СТРОКУ */
+    width: 33.33% !important; /* ЗАДАЁМ ШИРИНУ РОВНО ОДНУ ТРЕТЬ (100% / 3) ДЛЯ КАЖДОГО БЛОКА */
+    box-sizing: border-box !important; /* УЧИТЫВАЕМ ВНУТРЕННИЕ ОТСТУПЫ (PADDING) И ГРАНИЦЫ (BORDER) В РАСЧЁТЕ ШИРИНЫ */
+}
+
+/* ОЧИСТКА FLOAT ДЛЯ КОРРЕКТНОГО ОТОБРАЖЕНИЯ РОДИТЕЛЬСКОГО ЭЛЕМЕНТА */
+.top-panel::after {
+    content: "" !important; /* СОЗДАЁМ ПСЕВДОЭЛЕМЕНТ БЕЗ СОДЕРЖИМОГО */
+    display: table !important; /* ДЕЛАЕМ ЕГО ТАБЛИЦЕЙ, ЧТОБЫ ЗАНЯЛ ВСЮ ШИРИНУ */
+    clear: both !important; /* ОТМЕНЯЕМ ОБТЕКАНИЕ FLOAT С ОБЕИХ СТОРОН */
 }
