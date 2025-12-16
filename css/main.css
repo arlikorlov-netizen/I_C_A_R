@@ -96,7 +96,6 @@ height: 50% !important;
 .top-left, .top-center, .top-right {
   
     float: left !important; /* ПРИЖИМАЕМ ЭЛЕМЕНТЫ К ЛЕВОМУ КРАЮ, ЧТОБЫ ОНИ ВСТАЛИ В ОДНУ СТРОКУ */
-    width: 33.33% !important; /* ЗАДАЁМ ШИРИНУ РОВНО ОДНУ ТРЕТЬ (100% / 3) ДЛЯ КАЖДОГО БЛОКА */
     box-sizing: border-box !important; /* УЧИТЫВАЕМ ВНУТРЕННИЕ ОТСТУПЫ (PADDING) И ГРАНИЦЫ (BORDER) В РАСЧЁТЕ ШИРИНЫ */
 }
 
