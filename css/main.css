@@ -93,8 +93,7 @@ height: 50% !important;
 
 /* БЛОЧНАЯ ВЁРСТКА С ИСПОЛЬЗОВАНИЕМ FLOAT ДЛЯ ТРЁХ КОЛОНОК */
 .top-left, .top-center, .top-right {
-    font-size: 30px !important; /* УВЕЛИЧИВАЕМ РАЗМЕР ШРИФТА */
-    padding-top: 15px !important; /* ОПУСКАЕМ ТЕКСТ ОТ ВЕРХНЕЙ ГРАНИЦЫ */
+  
     float: left !important; /* ПРИЖИМАЕМ ЭЛЕМЕНТЫ К ЛЕВОМУ КРАЮ, ЧТОБЫ ОНИ ВСТАЛИ В ОДНУ СТРОКУ */
     width: 33.33% !important; /* ЗАДАЁМ ШИРИНУ РОВНО ОДНУ ТРЕТЬ (100% / 3) ДЛЯ КАЖДОГО БЛОКА */
     box-sizing: border-box !important; /* УЧИТЫВАЕМ ВНУТРЕННИЕ ОТСТУПЫ (PADDING) И ГРАНИЦЫ (BORDER) В РАСЧЁТЕ ШИРИНЫ */
@@ -106,3 +105,18 @@ height: 50% !important;
     display: table !important; /* ДЕЛАЕМ ЕГО ТАБЛИЦЕЙ, ЧТОБЫ ЗАНЯЛ ВСЮ ШИРИНУ */
     clear: both !important; /* ОТМЕНЯЕМ ОБТЕКАНИЕ FLOAT С ОБЕИХ СТОРОН */
 }
+
+.top-center {
+    font-size: 30px !important; /* УВЕЛИЧИВАЕМ РАЗМЕР ШРИФТА */
+    padding-top: 28px !important; /* ОПУСКАЕМ ТЕКСТ ОТ ВЕРХНЕЙ ГРАНИЦЫ */
+ }
+
+ .top-center {
+    font-size: 30px !important; /* УВЕЛИЧИВАЕМ РАЗМЕР ШРИФТА */
+    padding-top: 15px !important; /* ОПУСКАЕМ ТЕКСТ ОТ ВЕРХНЕЙ ГРАНИЦЫ */
+ }
+
+ .top-right {
+    font-size: 30px !important; /* УВЕЛИЧИВАЕМ РАЗМЕР ШРИФТА */
+    padding-top: 45px !important; /* ОПУСКАЕМ ТЕКСТ ОТ ВЕРХНЕЙ ГРАНИЦЫ */
+ }
