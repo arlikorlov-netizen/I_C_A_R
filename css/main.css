@@ -85,6 +85,12 @@ height: 50% !important;
     letter-spacing: 1px !important; /* РАССТОЯНИЕ МЕЖДУ БУКВАМИ */
 }
 
+/* ПРИНУДИТЕЛЬНО ДЕЛАЕМ ВСЕ ЭЛЕМЕНТЫ В ОДНУ СТРОКУ */
+.top-panel > * {
+    display: inline-block !important; /* БЛОЧНО-СТРОЧНОЕ ОТОБРАЖЕНИЕ */
+    vertical-align: middle !important; /* ВЫРАВНИВАЕМ ПО СЕРЕДИНЕ ВЕРТИКАЛЬНО */
+}
+
 /* БЛОЧНАЯ ВЁРСТКА С ИСПОЛЬЗОВАНИЕМ FLOAT ДЛЯ ТРЁХ КОЛОНОК */
 .top-left, .top-center, .top-right {
     float: left !important; /* ПРИЖИМАЕМ ЭЛЕМЕНТЫ К ЛЕВОМУ КРАЮ, ЧТОБЫ ОНИ ВСТАЛИ В ОДНУ СТРОКУ */
