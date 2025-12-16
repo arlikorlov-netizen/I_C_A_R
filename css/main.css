@@ -78,9 +78,7 @@ height: 50% !important;
 }
 
 .current-date {
-    font-size: 16px !important; /* РАЗМЕР ШРИФТА */
     color: #A0FFA0 !important; /* СВЕТЛО-ЗЕЛЁНЫЙ ЦВЕТ ТЕКСТА */
-    margin-right: 20px !important; /* ОТСТУП СПРАВА ОТ ДАТЫ */
     text-transform: uppercase !important; /* ВСЕ БУКВЫ ЗАГЛАВНЫЕ */
     letter-spacing: 1px !important; /* РАССТОЯНИЕ МЕЖДУ БУКВАМИ */
 }
