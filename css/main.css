@@ -64,11 +64,14 @@ height: 10% !important;
 }
 
 .middle-panel {
-height: 40% !important;  
+height: 40% !important;
+justify-self: start !important; /* ПРАВЫЙ БЛОК - ВЫРАВНИВАНИЕ ВЛЕВО (К ЦЕНТРУ) */  
+
 }
 
 .bottom-panel {
-height: 50% !important;  
+height: 50% !important; 
+font-size: 10px !important; 
 }
 
 .user-name {
@@ -85,9 +88,25 @@ height: 50% !important;
 /* ДЕЛАЕМ ВЕРХНЮЮ ПАНЕЛЬ ГРИД-КОНТЕЙНЕРОМ НА 3 РАВНЫХ КОЛОНКИ */
 .top-panel {
     display: grid !important; /* ВКЛЮЧАЕМ CSS GRID */
-    grid-template-columns: 1fr 1fr 0.2fr !important; /* ТРИ ОДИНАКОВЫХ КОЛОНКИ */
+    grid-template-columns: 1fr 1fr 1fr !important; /* ТРИ ОДИНАКОВЫХ КОЛОНКИ */
     width: 100vw !important; /* ШИРИНА ВЕСЬ ЭКРАН */
     align-items: end !important; /* ВЫРАВНИВАЕМ ВСЕ ЭЛЕМЕНТЫ ПО НИЖНЕМУ КРАЮ */
+}
+
+/* ИНДИВИДУАЛЬНОЕ ВЫРАВНИВАНИЕ ДЛЯ КАЖДОГО СТОЛБЦА */
+.top-left {
+    justify-self: end !important; /* ЛЕВЫЙ БЛОК - ВЫРАВНИВАНИЕ ВПРАВО (К ЦЕНТРУ) */
+font-size: 20px !important;
+}
+
+.top-center {
+    justify-self: center !important; /* ЦЕНТРАЛЬНЫЙ БЛОК - ПО ЦЕНТРУ */
+font-size: 20px !important;
+}
+
+.top-right {
+    justify-self: start !important; /* ПРАВЫЙ БЛОК - ВЫРАВНИВАНИЕ ВЛЕВО (К ЦЕНТРУ) */
+font-size: 20px !important;
 }
 
 /* ОЧИСТКА FLOAT ДЛЯ КОРРЕКТНОГО ОТОБРАЖЕНИЯ РОДИТЕЛЬСКОГО ЭЛЕМЕНТА */
