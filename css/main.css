@@ -44,7 +44,7 @@ body {
 }
 
 .top-panel {
-height: 10% !important;
+height: 5% !important;
 
     /* ДЕЛАЕМ СТАНДАРТНУЮ РАМКУ ПРОЗРАЧНОЙ (ОНА НУЖНА ДЛЯ ЗАНИМАЕМОГО МЕСТА) */
     border-bottom: 3px solid transparent !important;
@@ -64,14 +64,14 @@ height: 10% !important;
 }
 
 .middle-panel {
-height: 40% !important;
+height: 42.5% !important;
 text-align: left !important; /* ТЕКСТ ПО ЛЕВОМУ КРАЮ */
 font-size: 10px !important; 
 
 }
 
 .bottom-panel {
-height: 50% !important; 
+height: 52.5% !important; 
 
 }
 
@@ -101,8 +101,6 @@ height: 50% !important;
     height: 10% !important; /* ЗАНИМАЕМ ВСЮ ВЫСОТУ РОДИТЕЛЯ */
     width: 100vw !important; /* ШИРИНА ВЕСЬ ЭКРАН */
     align-items: end !important; /* ВЫРАВНИВАЕМ ВСЕ ЭЛЕМЕНТЫ ПО НИЖНЕМУ КРАЮ */
-    height: 100px !important; /* ФИКСИРОВАННАЯ ВЫСОТА ДЛЯ ПАНЕЛИ */
-
 }
 
 /* ИНДИВИДУАЛЬНОЕ ВЫРАВНИВАНИЕ ДЛЯ КАЖДОГО СТОЛБЦА */
