@@ -85,10 +85,11 @@ height: 50% !important;
     letter-spacing: 1px !important; /* РАССТОЯНИЕ МЕЖДУ БУКВАМИ */
 }
 
-/* ПРИНУДИТЕЛЬНО ДЕЛАЕМ ВСЕ ЭЛЕМЕНТЫ В ОДНУ СТРОКУ */
-.top-panel > * {
-    display: inline-block !important; /* БЛОЧНО-СТРОЧНОЕ ОТОБРАЖЕНИЕ */
-    vertical-align: middle !important; /* ВЫРАВНИВАЕМ ПО СЕРЕДИНЕ ВЕРТИКАЛЬНО */
+/* ДЕЛАЕМ ВЕРХНЮЮ ПАНЕЛЬ ГРИД-КОНТЕЙНЕРОМ НА 3 РАВНЫХ КОЛОНКИ */
+.top-panel {
+    display: grid !important; /* ВКЛЮЧАЕМ CSS GRID */
+    grid-template-columns: 1fr 1fr 1fr !important; /* ТРИ ОДИНАКОВЫХ КОЛОНКИ */
+    width: 100% !important; /* ШИРИНА ВЕСЬ ЭКРАН */
 }
 
 /* БЛОЧНАЯ ВЁРСТКА С ИСПОЛЬЗОВАНИЕМ FLOAT ДЛЯ ТРЁХ КОЛОНОК */
@@ -108,7 +109,7 @@ height: 50% !important;
 
 .top-center {
     font-size: 30px !important; /* УВЕЛИЧИВАЕМ РАЗМЕР ШРИФТА */
-    padding-top: 28px !important; /* ОПУСКАЕМ ТЕКСТ ОТ ВЕРХНЕЙ ГРАНИЦЫ */
+    padding-top: 15px !important; /* ОПУСКАЕМ ТЕКСТ ОТ ВЕРХНЕЙ ГРАНИЦЫ */
  }
 
  .top-center {
@@ -118,5 +119,5 @@ height: 50% !important;
 
  .top-right {
     font-size: 30px !important; /* УВЕЛИЧИВАЕМ РАЗМЕР ШРИФТА */
-    padding-top: 45px !important; /* ОПУСКАЕМ ТЕКСТ ОТ ВЕРХНЕЙ ГРАНИЦЫ */
+    padding-top: 15px !important; /* ОПУСКАЕМ ТЕКСТ ОТ ВЕРХНЕЙ ГРАНИЦЫ */
  }
