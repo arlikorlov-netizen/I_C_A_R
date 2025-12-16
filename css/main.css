@@ -41,7 +41,6 @@ body {
     display: block !important; /* ЯЧЕЙКИ ТАБЛИЦЫ В ОДНУ СТРОКУ */
     width: 100vw !important; /* ШИРИНА 100% */ 
     text-align: center !important; /* ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ ПО ЦЕНТРУ */
-    line-height: 100px !important; /* ВЫСОТА СТРОКИ РАВНА ВЫСОТЕ БЛОКА */
 }
 
 .top-panel {
