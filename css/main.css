@@ -79,12 +79,13 @@ height: 52.5% !important;
     text-transform: uppercase !important; /* ВСЕ БУКВЫ ЗАГЛАВНЫЕ */
     letter-spacing: 2px !important; /* РАССТОЯНИЕ МЕЖДУ БУКВАМИ */
     font-size: 20px !important; 
+    color: #A0FFA0 !important; /* СВЕТЛО-ЗЕЛЁНЫЙ ЦВЕТ ТЕКСТА */
 }
 
 .userLvl{
-    text-transform: uppercase !important; /* ВСЕ БУКВЫ ЗАГЛАВНЫЕ */
     letter-spacing: 2px !important; /* РАССТОЯНИЕ МЕЖДУ БУКВАМИ */
     font-size: 10px !important; 
+    color: #A0FFA0 !important; /* СВЕТЛО-ЗЕЛЁНЫЙ ЦВЕТ ТЕКСТА */
 }
 
 .current-date {
