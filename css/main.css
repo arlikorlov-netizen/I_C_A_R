@@ -87,6 +87,7 @@ height: 50% !important;
     display: grid !important; /* ВКЛЮЧАЕМ CSS GRID */
     grid-template-columns: 1fr 1fr 0.2fr !important; /* ТРИ ОДИНАКОВЫХ КОЛОНКИ */
     width: 100vw !important; /* ШИРИНА ВЕСЬ ЭКРАН */
+    align-items: end !important; /* ВЫРАВНИВАЕМ ВСЕ ЭЛЕМЕНТЫ ПО НИЖНЕМУ КРАЮ */
 }
 
 /* БЛОЧНАЯ ВЁРСТКА С ИСПОЛЬЗОВАНИЕМ FLOAT ДЛЯ ТРЁХ КОЛОНОК */
@@ -105,15 +106,12 @@ height: 50% !important;
 
 .top-left {
     font-size: 20px !important; /* УВЕЛИЧИВАЕМ РАЗМЕР ШРИФТА */
-    padding-top: 15px !important; /* ОПУСКАЕМ ТЕКСТ ОТ ВЕРХНЕЙ ГРАНИЦЫ */
  }
 
  .top-center {
     font-size: 20px !important; /* УВЕЛИЧИВАЕМ РАЗМЕР ШРИФТА */
-    padding-top: 15px !important; /* ОПУСКАЕМ ТЕКСТ ОТ ВЕРХНЕЙ ГРАНИЦЫ */
  }
 
  .top-right {
     font-size: 30px !important; /* УВЕЛИЧИВАЕМ РАЗМЕР ШРИФТА */
-    padding-top: 15px !important; /* ОПУСКАЕМ ТЕКСТ ОТ ВЕРХНЕЙ ГРАНИЦЫ */
  }
