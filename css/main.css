@@ -90,28 +90,9 @@ height: 50% !important;
     align-items: end !important; /* ВЫРАВНИВАЕМ ВСЕ ЭЛЕМЕНТЫ ПО НИЖНЕМУ КРАЮ */
 }
 
-/* БЛОЧНАЯ ВЁРСТКА С ИСПОЛЬЗОВАНИЕМ FLOAT ДЛЯ ТРЁХ КОЛОНОК */
-.top-left, .top-center, .top-right {
-  
-    float: left !important; /* ПРИЖИМАЕМ ЭЛЕМЕНТЫ К ЛЕВОМУ КРАЮ, ЧТОБЫ ОНИ ВСТАЛИ В ОДНУ СТРОКУ */
-    box-sizing: border-box !important; /* УЧИТЫВАЕМ ВНУТРЕННИЕ ОТСТУПЫ (PADDING) И ГРАНИЦЫ (BORDER) В РАСЧЁТЕ ШИРИНЫ */
-}
-
 /* ОЧИСТКА FLOAT ДЛЯ КОРРЕКТНОГО ОТОБРАЖЕНИЯ РОДИТЕЛЬСКОГО ЭЛЕМЕНТА */
 .top-panel::after {
     content: "" !important; /* СОЗДАЁМ ПСЕВДОЭЛЕМЕНТ БЕЗ СОДЕРЖИМОГО */
     display: table !important; /* ДЕЛАЕМ ЕГО ТАБЛИЦЕЙ, ЧТОБЫ ЗАНЯЛ ВСЮ ШИРИНУ */
     clear: both !important; /* ОТМЕНЯЕМ ОБТЕКАНИЕ FLOAT С ОБЕИХ СТОРОН */
 }
-
-.top-left {
-    font-size: 20px !important; /* УВЕЛИЧИВАЕМ РАЗМЕР ШРИФТА */
- }
-
- .top-center {
-    font-size: 20px !important; /* УВЕЛИЧИВАЕМ РАЗМЕР ШРИФТА */
- }
-
- .top-right {
-    font-size: 30px !important; /* УВЕЛИЧИВАЕМ РАЗМЕР ШРИФТА */
- }
