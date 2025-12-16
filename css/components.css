@@ -5,6 +5,6 @@
     font-size: 24px !important; /* РАЗМЕР ИКОНКИ */
     cursor: pointer !important; /* КУРСОР-УКАЗАТЕЛЬ ПРИ НАВЕДЕНИИ */
     position: absolute !important; /* АБСОЛЮТНОЕ ПОЗИЦИОНИРОВАНИЕ */
-    top: 0px !important; /* 10px ОТ ВЕРХНЕГО КРАЯ */
-    right: 0px !important; /* 10px ОТ ПРАВОГО КРАЯ */
+    top: 1px !important; /* 10px ОТ ВЕРХНЕГО КРАЯ */
+    right: 1px !important; /* 10px ОТ ПРАВОГО КРАЯ */
 }
