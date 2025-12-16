@@ -65,24 +65,33 @@ height: 10% !important;
 
 .middle-panel {
 height: 40% !important;
-justify-self: start !important; /* ПРАВЫЙ БЛОК - ВЫРАВНИВАНИЕ ВЛЕВО (К ЦЕНТРУ) */  
+text-align: left !important; /* ТЕКСТ ПО ЛЕВОМУ КРАЮ */
+font-size: 12px !important; 
 
 }
 
 .bottom-panel {
 height: 50% !important; 
-font-size: 10px !important; 
+
 }
 
 .user-name {
     text-transform: uppercase !important; /* ВСЕ БУКВЫ ЗАГЛАВНЫЕ */
     letter-spacing: 2px !important; /* РАССТОЯНИЕ МЕЖДУ БУКВАМИ */
+    font-size: 15px !important; 
+}
+
+.userLvl{
+    text-transform: uppercase !important; /* ВСЕ БУКВЫ ЗАГЛАВНЫЕ */
+    letter-spacing: 2px !important; /* РАССТОЯНИЕ МЕЖДУ БУКВАМИ */
+    font-size: 15px !important; 
 }
 
 .current-date {
     color: #A0FFA0 !important; /* СВЕТЛО-ЗЕЛЁНЫЙ ЦВЕТ ТЕКСТА */
     text-transform: uppercase !important; /* ВСЕ БУКВЫ ЗАГЛАВНЫЕ */
     letter-spacing: 1px !important; /* РАССТОЯНИЕ МЕЖДУ БУКВАМИ */
+    font-size: 15px !important; 
 }
 
 /* ДЕЛАЕМ ВЕРХНЮЮ ПАНЕЛЬ ГРИД-КОНТЕЙНЕРОМ НА 3 РАВНЫХ КОЛОНКИ */
@@ -96,17 +105,14 @@ font-size: 10px !important;
 /* ИНДИВИДУАЛЬНОЕ ВЫРАВНИВАНИЕ ДЛЯ КАЖДОГО СТОЛБЦА */
 .top-left {
     justify-self: end !important; /* ЛЕВЫЙ БЛОК - ВЫРАВНИВАНИЕ ВПРАВО (К ЦЕНТРУ) */
-font-size: 20px !important;
 }
 
 .top-center {
     justify-self: center !important; /* ЦЕНТРАЛЬНЫЙ БЛОК - ПО ЦЕНТРУ */
-font-size: 20px !important;
 }
 
 .top-right {
     justify-self: start !important; /* ПРАВЫЙ БЛОК - ВЫРАВНИВАНИЕ ВЛЕВО (К ЦЕНТРУ) */
-font-size: 20px !important;
 }
 
 /* ОЧИСТКА FLOAT ДЛЯ КОРРЕКТНОГО ОТОБРАЖЕНИЯ РОДИТЕЛЬСКОГО ЭЛЕМЕНТА */
