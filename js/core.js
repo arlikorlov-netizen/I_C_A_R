@@ -21,9 +21,9 @@ function displayCurrentDate() {
     dateElement.textContent = formattedDate;
     
     // НАХОДИМ ВЕРХНЮЮ ПАНЕЛЬ НА СТРАНИЦЕ ПО КЛАССУ
-    const topPanel = document.querySelector('.top-panel');
+    const topLeftBlock = document.querySelector('.top-left .current-date');
     // ДОБАВЛЯЕМ ЭЛЕМЕНТ С ДАТОЙ В НАЧАЛО ВЕРХНЕЙ ПАНЕЛИ (ПЕРЕД ПЕРВЫМ РЕБЁНКОМ)
-    topPanel.insertBefore(dateElement, topPanel.firstChild);
+    topLeftBlock.textContent = formattedDate;;
 }
 
 // ВЫПОЛНЯЕМ ФУНКЦИЮ ОТОБРАЖЕНИЯ ДАТЫ, КОГДА ВЕСЬ HTML ЗАГРУЗИЛСЯ
