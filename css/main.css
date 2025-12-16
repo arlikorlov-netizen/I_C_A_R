@@ -82,10 +82,11 @@ height: 52.5% !important;
     color: #A0FFA0 !important; /* СВЕТЛО-ЗЕЛЁНЫЙ ЦВЕТ ТЕКСТА */
 }
 
-.userLvl{
+.user-Lvl{
     letter-spacing: 2px !important; /* РАССТОЯНИЕ МЕЖДУ БУКВАМИ */
     font-size: 10px !important; 
     color: #A0FFA0 !important; /* СВЕТЛО-ЗЕЛЁНЫЙ ЦВЕТ ТЕКСТА */
+    text-align: left !important; /* ТЕКСТ ПО ЛЕВОМУ КРАЮ */
 }
 
 .current-date {
@@ -93,6 +94,7 @@ height: 52.5% !important;
     text-transform: uppercase !important; /* ВСЕ БУКВЫ ЗАГЛАВНЫЕ */
     letter-spacing: 1px !important; /* РАССТОЯНИЕ МЕЖДУ БУКВАМИ */
     font-size: 10px !important; 
+    text-align: right !important; /* ТЕКСТ ПО ПРАВОМУ КРАЮ */
 }
 
 /* ДЕЛАЕМ ВЕРХНЮЮ ПАНЕЛЬ ГРИД-КОНТЕЙНЕРОМ НА 3 РАВНЫХ КОЛОНКИ */
@@ -103,19 +105,6 @@ height: 52.5% !important;
     width: 100vw !important; /* ШИРИНА ВЕСЬ ЭКРАН */
     align-items: end !important; /* ВЫРАВНИВАЕМ ВСЕ ЭЛЕМЕНТЫ ПО НИЖНЕМУ КРАЮ */
     color: #A0FFA0 !important; /* СВЕТЛО-ЗЕЛЁНЫЙ ЦВЕТ ТЕКСТА */
-}
-
-/* ИНДИВИДУАЛЬНОЕ ВЫРАВНИВАНИЕ ДЛЯ КАЖДОГО СТОЛБЦА */
-.top-left {
-    justify-self: end !important; /* ЛЕВЫЙ БЛОК - ВЫРАВНИВАНИЕ ВПРАВО (К ЦЕНТРУ) */
-}
-
-.top-center {
-    justify-self: center !important; /* ЦЕНТРАЛЬНЫЙ БЛОК - ПО ЦЕНТРУ */
-}
-
-.top-right {
-    justify-self: start !important; /* ПРАВЫЙ БЛОК - ВЫРАВНИВАНИЕ ВЛЕВО (К ЦЕНТРУ) */
 }
 
 /* ОЧИСТКА FLOAT ДЛЯ КОРРЕКТНОГО ОТОБРАЖЕНИЯ РОДИТЕЛЬСКОГО ЭЛЕМЕНТА */
