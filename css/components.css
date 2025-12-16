@@ -7,4 +7,5 @@
     position: absolute !important; /* АБСОЛЮТНОЕ ПОЗИЦИОНИРОВАНИЕ */
     top: 1px !important; /* 10px ОТ ВЕРХНЕГО КРАЯ */
     right: 1px !important; /* 10px ОТ ПРАВОГО КРАЯ */
+    z-index: 1000 !important; /* ПОВЕРХ ДРУГИХ ЭЛЕМЕНТОВ */
 }
