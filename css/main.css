@@ -101,7 +101,7 @@ height: 47.5% !important;
 .top-panel {
     display: grid !important; /* ВКЛЮЧАЕМ CSS GRID */
     grid-template-columns: 1fr 1fr 1fr !important; /* ТРИ ОДИНАКОВЫХ КОЛОНКИ */
-    height: 5% !important; /* ЗАНИМАЕМ ВСЮ ВЫСОТУ РОДИТЕЛЯ */
+    height: 15% !important; /* ЗАНИМАЕМ ВСЮ ВЫСОТУ РОДИТЕЛЯ */
     width: 100vw !important; /* ШИРИНА ВЕСЬ ЭКРАН */
     align-items: end !important; /* ВЫРАВНИВАЕМ ВСЕ ЭЛЕМЕНТЫ ПО НИЖНЕМУ КРАЮ */
     color: #A0FFA0 !important; /* СВЕТЛО-ЗЕЛЁНЫЙ ЦВЕТ ТЕКСТА */
