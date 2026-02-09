@@ -44,7 +44,7 @@ body {
 }
 
 .top-panel {
-height: 5% !important;
+height: 15% !important;
 
     /* ДЕЛАЕМ СТАНДАРТНУЮ РАМКУ ПРОЗРАЧНОЙ (ОНА НУЖНА ДЛЯ ЗАНИМАЕМОГО МЕСТА) */
     border-bottom: 3px solid transparent !important;
@@ -64,14 +64,14 @@ height: 5% !important;
 }
 
 .middle-panel {
-height: 42.5% !important;
+height: 37.5% !important;
 text-align: left !important; /* ТЕКСТ ПО ЛЕВОМУ КРАЮ */
 font-size: 10px !important; 
 
 }
 
 .bottom-panel {
-height: 52.5% !important; 
+height: 47.5% !important; 
 
 }
 
