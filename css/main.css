@@ -78,13 +78,13 @@ height: 47.5% !important;
 .user-name {
     text-transform: uppercase !important; /* ВСЕ БУКВЫ ЗАГЛАВНЫЕ */
     letter-spacing: 2px !important; /* РАССТОЯНИЕ МЕЖДУ БУКВАМИ */
-    font-size: 30px !important; 
+    font-size: 20px !important; 
     color: #A0FFA0 !important; /* СВЕТЛО-ЗЕЛЁНЫЙ ЦВЕТ ТЕКСТА */
 }
 
 .user-Lvl{
     letter-spacing: 2px !important; /* РАССТОЯНИЕ МЕЖДУ БУКВАМИ */
-    font-size: 15px !important; 
+    font-size: 10px !important; 
     color: #A0FFA0 !important; /* СВЕТЛО-ЗЕЛЁНЫЙ ЦВЕТ ТЕКСТА */
     text-align: left !important; /* ТЕКСТ ПО ЛЕВОМУ КРАЮ */
 }
@@ -93,7 +93,7 @@ height: 47.5% !important;
     color: #A0FFA0 !important; /* СВЕТЛО-ЗЕЛЁНЫЙ ЦВЕТ ТЕКСТА */
     text-transform: uppercase !important; /* ВСЕ БУКВЫ ЗАГЛАВНЫЕ */
     letter-spacing: 1px !important; /* РАССТОЯНИЕ МЕЖДУ БУКВАМИ */
-    font-size: 15px !important; 
+    font-size: 10px !important; 
     text-align: right !important; /* ТЕКСТ ПО ПРАВОМУ КРАЮ */
 }
 
